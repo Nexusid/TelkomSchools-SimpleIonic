@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="id.sch.smktelkom-jkt" version="0.0.1" xmlns="http://www.w3.org/ns/widgets"
+xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Telkom Schools</name>
+    <description>
+        Telkom Schools Mobile Applications
+    </description>
+    <author email="coolkid15.aa@gmail.com" href="https://smktelkom-jkt.sch.id/">
+    Titah Arya Dewantara
+    </author>
+    <content src="index.html"/>
+    <access origin="*">
+    <preference name="webviewbounce" value="false"/>
+    <preference name="UIWebViewBounce" value="false"/>
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="SplashScreenDelay" value="1000"/>
+    <preference name="FadeSplashScreenDuration" value="1000"/>
+    <preference name="android-minSdkVersion" value="26"/>
+    <preference name="BackupWebStorage" value="none"/>
+    <preference name="orientation" value="potrait"/>
+    <preference name="SplashScreen" value="screen"/>
+    <feature name="StatusBar">
+        <param name="ios-package" onload="true" value="CDVStatusBar"/>
+    </feature>
+
+<platform name="android">
+            <icon density="ldpi" src="/android/icon/drawable-ldpi-icon.png"/>
+            <icon density="mdpi" src="/android/icon/drawable-mdpi-icon.png"/>
+            <icon density="hdpi" src="/android/icon/drawable-hdpi-icon.png"/>
+            <icon density="xhdpi" src="/android/icon/drawable-xhdpi-icon.png"/>
+            <icon density="xxhdpi" src="/android/icon/drawable-xxhdpi-icon.png"/>
+            <icon density="xxxhdpi" src="/android/icon/drawable-xxxhdpi-icon.png"/>
+            <splash density="port-ldpi" src="/android/splash/drawable-port-ldpi-screen.png"/>
+            <splash density="port-mdpi" src="/android/splash/drawable-port-mdpi-screen.png"/>
+            <splash density="port-hdpi" src="/android/splash/drawable-port-hdpi-screen.png"/>
+            <splash density="port-xhdpi" src="/android/splash/drawable-port-xhdpi-screen.png"/>
+            <splash density="port-xxhdpi" src="/android/splash/drawable-port-xxhdpi-screen.png"/>
+            <splash density="port-xxxhdpi" src="/android/splash/drawable-port-xxxhdpi-screen.png"/>
+            </platform>
+            <icon src="/android/icon/drawable-xhdpi-icon.png"/>
+            <engine name="android" spec="^7.1.1"/>
+            </widget>
